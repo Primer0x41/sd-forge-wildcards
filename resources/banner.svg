@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-label="SD Forge Wildcards Banner">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="55%" stop-color="#141923"/>
+      <stop offset="100%" stop-color="#1b1f2e"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff5f5f"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="card1Art" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff5f5f" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="card2Art" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0.25"/>
+    </linearGradient>
+    <linearGradient id="card3Art" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.2"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="360" rx="16" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="16" fill="url(#grid)"/>
+  <rect x="1" y="1" width="1198" height="358" rx="15" fill="none" stroke="#30363d" stroke-width="1.5"/>
+
+  <!-- Subtle glow -->
+  <circle cx="940" cy="180" r="190" fill="#6366f1" opacity="0.08"/>
+  <circle cx="820" cy="210" r="140" fill="#ff5f5f" opacity="0.07"/>
+
+  <!-- Left Content -->
+  <g transform="translate(64, 72)">
+    <!-- Badge -->
+    <rect x="0" y="0" width="248" height="28" rx="14" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+    <circle cx="16" cy="14" r="4" fill="#ff5f5f"/>
+    <text x="28" y="18.5" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="11.5" font-weight="600" letter-spacing="0.8" fill="#c9d1d9">SD WEBUI FORGE NEO EXTENSION</text>
+
+    <!-- Title -->
+    <text x="0" y="84" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="46" font-weight="800" fill="#f0f6fc" letter-spacing="-0.5">SD Forge Wildcards</text>
+    <rect x="0" y="100" width="96" height="4" rx="2" fill="url(#accentGrad)"/>
+
+    <!-- Subtitle -->
+    <text x="0" y="138" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="18" fill="#8b949e">Visual wildcard card browser &amp; dynamic prompt engine</text>
+
+    <!-- Feature Pills -->
+    <g transform="translate(0, 174)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" font-weight="600">
+      <rect x="0" y="0" width="132" height="34" rx="8" fill="#161b22" stroke="#ff5f5f" stroke-opacity="0.6"/>
+      <text x="66" y="22" text-anchor="middle" fill="#ff8a8a">__wildcard__</text>
+
+      <rect x="146" y="0" width="116" height="34" rx="8" fill="#161b22" stroke="#8b5cf6" stroke-opacity="0.6"/>
+      <text x="204" y="22" text-anchor="middle" fill="#c4b5fd">{optA|optB}</text>
+
+      <rect x="276" y="0" width="136" height="34" rx="8" fill="#161b22" stroke="#06b6d4" stroke-opacity="0.6"/>
+      <text x="344" y="22" text-anchor="middle" fill="#67e8f9">__3$$colors__</text>
+    </g>
+  </g>
+
+  <!-- Right Card Gallery Preview -->
+  <g transform="translate(710, 56)">
+    <!-- Card 1 (Back Left) -->
+    <g transform="translate(0, 28) rotate(-5)">
+      <rect x="0" y="0" width="138" height="192" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1.5"/>
+      <rect x="10" y="10" width="118" height="132" rx="8" fill="url(#card1Art)"/>
+      <circle cx="52" cy="54" r="16" fill="#ff5f5f" opacity="0.65"/>
+      <path d="M18 130 L56 88 L88 116 L108 98 L122 130 Z" fill="#f59e0b" opacity="0.45"/>
+      <rect x="14" y="156" width="74" height="8" rx="4" fill="#c9d1d9" opacity="0.85"/>
+      <rect x="14" y="170" width="48" height="6" rx="3" fill="#8b949e" opacity="0.55"/>
+    </g>
+
+    <!-- Card 3 (Back Right) -->
+    <g transform="translate(278, 28) rotate(5)">
+      <rect x="0" y="0" width="138" height="192" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1.5"/>
+      <rect x="10" y="10" width="118" height="132" rx="8" fill="url(#card3Art)"/>
+      <circle cx="69" cy="64" r="24" fill="none" stroke="#67e8f9" stroke-width="2.5" opacity="0.75"/>
+      <circle cx="69" cy="64" r="10" fill="#67e8f9" opacity="0.55"/>
+      <rect x="14" y="156" width="82" height="8" rx="4" fill="#c9d1d9" opacity="0.85"/>
+      <rect x="14" y="170" width="54" height="6" rx="3" fill="#8b949e" opacity="0.55"/>
+    </g>
+
+    <!-- Card 2 (Center Front) -->
+    <g transform="translate(132, 10)">
+      <rect x="0" y="0" width="152" height="214" rx="14" fill="#1c2128" stroke="#ff5f5f" stroke-width="2"/>
+      <rect x="11" y="11" width="130" height="148" rx="9" fill="url(#card2Art)"/>
+      <polygon points="76,38 108,96 44,96" fill="#c4b5fd" opacity="0.65"/>
+      <circle cx="76" cy="112" r="18" fill="#ec4899" opacity="0.5"/>
+      <rect x="14" y="172" width="90" height="9" rx="4.5" fill="#f0f6fc"/>
+      <rect x="14" y="188" width="58" height="7" rx="3.5" fill="#8b949e" opacity="0.7"/>
+      <rect x="112" y="171" width="26" height="20" rx="5" fill="#ff5f5f" opacity="0.22" stroke="#ff5f5f" stroke-width="1"/>
+      <text x="125" y="185" text-anchor="middle" font-family="ui-monospace, monospace" font-size="10" font-weight="700" fill="#ff8a8a">YAML</text>
+    </g>
+  </g>
+</svg>
